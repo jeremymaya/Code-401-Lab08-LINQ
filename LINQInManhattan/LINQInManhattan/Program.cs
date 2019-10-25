@@ -13,8 +13,6 @@ namespace LINQInManhattan
         {
             string path = "../../../../Data/data.json";
 
-            // https://www.newtonsoft.com/json/help/html/DeserializeWithJsonSerializerFromFile.htm
-            // https://www.jerriepelser.com/blog/deserialize-different-json-object-same-class/
             using StreamReader file = File.OpenText(path);
             JsonSerializer serializer = new JsonSerializer();
             Neighborhood neighborhood = (Neighborhood)serializer.Deserialize(file, typeof(Neighborhood));
@@ -22,6 +20,7 @@ namespace LINQInManhattan
             PrintNeighborhoods(neighborhood);
             FilterNoName(neighborhood);
             RemoveDuplicates(neighborhood);
+            OneSingleQuery(neighborhood);
             OpposingMethod(neighborhood);
         }
 
@@ -62,6 +61,20 @@ namespace LINQInManhattan
                 .Where(x => x.properties.neighborhood != "")
                 .Select(x => x.properties.neighborhood)
                 .Distinct();
+
+            int counter = 1;
+            foreach (var item in neighborhoods)
+            {
+                Console.WriteLine($"{counter}. {item}");
+                counter++;
+            }
+            Console.WriteLine("");
+        }
+
+        static void OneSingleQuery(Neighborhood neighborhood)
+        {
+            Console.WriteLine("Rewrite the queries from above and consolidate all into one single query");
+            var neighborhoods = neighborhood.features.Where(x => x.properties.neighborhood != "").Select(x => x.properties.neighborhood).Distinct();
 
             int counter = 1;
             foreach (var item in neighborhoods)

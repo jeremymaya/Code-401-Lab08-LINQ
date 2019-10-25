@@ -32,9 +32,23 @@ Then select and open ```LINQInMahattan.sln```
 ---
 
 ### Visuals
+#### PrintNeighborhoods
+![Image 1](https://github.com/jeremymaya/Code-401-Lab07-Collections/blob/master/Screenshots/Menu.JPG)
+#### FilterNoName
+![Image 2](https://github.com/jeremymaya/Code-401-Lab07-Collections/blob/master/Screenshots/Menu.JPG)
+#### RemoveDuplicates
+![Image 3](https://github.com/jeremymaya/Code-401-Lab07-Collections/blob/master/Screenshots/Menu.JPG)
+#### OneSingleQuery
+![Image 4](https://github.com/jeremymaya/Code-401-Lab07-Collections/blob/master/Screenshots/Menu.JPG)
+#### OpposingMethod
+![Image 5](https://github.com/jeremymaya/Code-401-Lab07-Collections/blob/master/Screenshots/Menu.JPG)
 
+---
+
+### Credits
+[NewtonSoft](httpshttps://www.newtonsoft.com/json/help/html/DeserializeWithJsonSerializerFromFile.html)
 
 ---
 
 ### Change Log
-1.0: *Lab 08 Started* - 23 Oct 2019 9:30 AM
+1.0: *Lab 08 Completed* - 25 Oct 2019 9:30 AM
