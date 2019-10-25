@@ -33,15 +33,15 @@ Then select and open ```LINQInMahattan.sln```
 
 ### Visuals
 #### PrintNeighborhoods
-![Image 1](https://github.com/jeremymaya/Code-401-Lab07-Collections/blob/master/Screenshots/Menu.JPG)
+![Image 1](https://github.com/jeremymaya/Code-401-Lab08-LINQ/blob/master/Screenshots/PrintNeighborhoods.png)
 #### FilterNoName
-![Image 2](https://github.com/jeremymaya/Code-401-Lab07-Collections/blob/master/Screenshots/Menu.JPG)
+![Image 2](https://github.com/jeremymaya/Code-401-Lab08-LINQ/blob/master/Screenshots/FilterNoName.png)
 #### RemoveDuplicates
-![Image 3](https://github.com/jeremymaya/Code-401-Lab07-Collections/blob/master/Screenshots/Menu.JPG)
+![Image 3](https://github.com/jeremymaya/Code-401-Lab08-LINQ/blob/master/Screenshots/RemoveDuplicates.png)
 #### OneSingleQuery
-![Image 4](https://github.com/jeremymaya/Code-401-Lab07-Collections/blob/master/Screenshots/Menu.JPG)
+![Image 4](https://github.com/jeremymaya/Code-401-Lab08-LINQ/blob/master/Screenshots/OneSingleQuery.png)
 #### OpposingMethod
-![Image 5](https://github.com/jeremymaya/Code-401-Lab07-Collections/blob/master/Screenshots/Menu.JPG)
+![Image 5](https://github.com/jeremymaya/Code-401-Lab08-LINQ/blob/master/Screenshots/OpposingMethod.png)
 
 ---
 
